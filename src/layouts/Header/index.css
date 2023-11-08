@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 100px 0;
+}
+
+header img {
+    height: 68px;
+}
+
+header div {
+    display: flex;
+}
+
+header a {
+    width: 240px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #FF6060;
+
+    transition: all .2s;
+}
+
+header a:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 20px 0;
+    }
+
+    header img{
+        height: 47px;
+    }
+
+    header div {
+        column-gap: 26px;
+    }
+
+    header a {
+        width: 70px;
+        font-size: 14px;
+    }
+}
